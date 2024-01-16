@@ -57,7 +57,7 @@ A empresa está projetando e desenvolvendo um novo aplicativo. Os desenvolvedore
     - Selecione **Adicionar atribuição de função** (centro da página).
     - Na guia **Funções de trabalho**, pesquise e selecione a função **Administrador do Key Vault**.
     - Na página **Membros**, selecione **Usuário, grupo ou entidade de serviço**.
-    - Selecione **Selecionar membros**.
+    - Escolha **Selecionar membros**.
     - Procure sua conta de usuário e selecione-a. Sua conta de usuário é exibida no canto superior direito do portal.
     - Clique em **Selecionar** e em **Revisar + atribuir**.
     - Selecione **Revisar + atribuir** mais uma vez para adicionar a atribuição de função.
@@ -68,7 +68,8 @@ A empresa está projetando e desenvolvendo um novo aplicativo. Os desenvolvedore
     - No portal, procure e selecione **Cofres de chave**.
     - Selecione **Criar**.
     - Selecione o **grupo de recursos**.
-    - Forneça o **nome** do cofre de chaves. O nome deve ser exclusivo. 
+    - Forneça o **nome** do cofre de chaves. O nome deve ser exclusivo.
+    - Verifique na guia **Configuração de acesso** se a **Política de acesso ao cofre** está selecionada. 
     - Selecione **Examinar + criar**.
     - Aguarde as verificações de validação serem concluídas e selecione **Criar**.
     - Após a implantação, selecione **Acessar recurso**.
@@ -95,14 +96,14 @@ A empresa está projetando e desenvolvendo um novo aplicativo. Os desenvolvedore
     
 1. Configurar a conta de armazenamento para usar a chave gerenciada pelo cliente no cofre de chaves. Saiba mais sobre as [chaves gerenciadas pelo cliente em uma conta de armazenamento existente](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
     - Retorne à sua conta de armazenamento.
-    - Na seção **Segurança + Rede**, selecione a folha **Criptografia**.
+    - Na seção **Segurança + rede**, escolha a folha **Criptografia**.
     - Selecione **Chaves gerenciadas pelo cliente**.
     - **Selecione um cofre de chaves e uma chave**. Selecione seu cofre de chaves e chave.
     - **Selecione** para confirmar suas escolhas. 
     - Verifique se o **Tipo de identidade** é **Atribuída pelo usuário**.
     - **Selecione uma identidade**.
     - Selecione sua identidade gerenciada e selecione **Adicionar**. 
-    - **Salve** as alterações.
+    - **Salve** suas alterações.
     - Se você receber um erro informando que sua identidade não tem as permissões corretas, aguarde um minuto e tente novamente. 
 
 ## Configurar uma política de retenção baseada em tempo e um escopo de criptografia.

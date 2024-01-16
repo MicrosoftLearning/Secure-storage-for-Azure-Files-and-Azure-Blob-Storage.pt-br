@@ -18,7 +18,7 @@ Nesta demonstração, explore a criptografia e a segurança do aplicativo.
 
 1. Crie uma **identidade gerenciada**. Saiba mais, [Identidades gerenciadas](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview).
 
-1. Crie um **cofre de chaves** com os padrões. Saiba mais, [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
+1. Crie um **cofre de chaves**. Adote os padrões, **exceto** na guia **Configuração de acesso**, certifique-se de que **Política de acesso ao cofre** esteja selecionada. Saiba mais, [Azure Key Vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
 1. Aguarde até o cofre de chaves ser implantado e clique em **Ir para o recurso**.
 
