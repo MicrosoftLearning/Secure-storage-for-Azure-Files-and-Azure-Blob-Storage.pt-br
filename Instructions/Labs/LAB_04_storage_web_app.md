@@ -69,7 +69,7 @@ A empresa está projetando e desenvolvendo um novo aplicativo. Os desenvolvedore
     - Selecione **Criar**.
     - Selecione o **grupo de recursos**.
     - Forneça o **nome** do cofre de chaves. O nome deve ser exclusivo.
-    - Verifique na guia **Configuração de acesso** se a **Política de acesso ao cofre** está selecionada. 
+    - Certifique-se de que, na guia **Configuração de acesso**, **Controle de acesso baseado em função do Azure (recomendado)** esteja selecionado. 
     - Selecione **Examinar + criar**.
     - Aguarde as verificações de validação serem concluídas e selecione **Criar**.
     - Após a implantação, selecione **Acessar recurso**.
