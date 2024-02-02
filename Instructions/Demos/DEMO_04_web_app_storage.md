@@ -78,7 +78,7 @@ Nesta demonstração, explore a criptografia e a segurança do aplicativo.
 
 ## Configurar um escopo de criptografia para criptografia de infraestrutura.
 
-1. Os desenvolvedores também precisam definir o escopo da criptografia de infraestrutura no nível do contêiner. Discuta escopos de criptografia e criptografia de infraestrutura. Saiba mais, [Escopos de criptografia](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
+1. [Slide de suporte] Os desenvolvedores também precisam definir o escopo da criptografia de infraestrutura no nível do contêiner. Discuta escopos de criptografia e criptografia de infraestrutura. Saiba mais, [Escopos de criptografia](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
 
 1. Continue na **conta de armazenamento**.
 

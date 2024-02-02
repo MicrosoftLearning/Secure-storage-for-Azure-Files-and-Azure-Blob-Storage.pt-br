@@ -50,7 +50,7 @@ Nesta demonstração, explore o armazenamento de arquivos do Azure e a rede de a
 
 1. Revise as configurações na parte superior da página. Por exemplo, **Carregar** e **Alterar tamanho e desempenho**.
 
-1. Discuta a finalidade dos instantâneos. Saiba mais, [Instantâneos de compartilhamento de arquivo](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
+1. [Slide de suporte] Discuta a finalidade dos instantâneos. Saiba mais, [Instantâneos de compartilhamento de arquivo](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
 
 1. No painel **Operações**, selecione **Instantâneos**.
 
