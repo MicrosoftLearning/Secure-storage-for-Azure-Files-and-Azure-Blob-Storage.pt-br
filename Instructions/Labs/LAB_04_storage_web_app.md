@@ -24,8 +24,11 @@ A empresa está projetando e desenvolvendo um novo aplicativo. Os desenvolvedore
     - No portal do Azure, procure e selecione **Contas de armazenamento**. 
     - Selecione **+ Criar**.
     - Em **Grupo de recursos**, selecione **Criar novo**. Dê um **nome** ao grupo de recursos e selecione **OK** para salvar as alterações.
-    - Forneça um **Nome da conta de armazenamento**. Garanta que o nome seja exclusivo e atenda aos requisitos de nomenclatura. 
-    - **Revise** e **Crie** a conta de armazenamento.
+    - Forneça um **Nome da conta de armazenamento**. Garanta que o nome seja exclusivo e atenda aos requisitos de nomenclatura.
+    - Vá para a guia **Criptografia**.
+    - Marque a caixa para **Habilitar criptografia de infraestrutura**.
+    - Observe o aviso, *Esta opção não poderá ser alterada após a criação dessa conta de armazenamento.*
+    - Selecione **Examinar + criar**.
     - Aguarde até o recurso ser implantado.
 
 1. Forneça uma identidade gerenciada para o aplicativo Web usar.  Saiba mais sobre [identidades gerenciadas](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
@@ -130,7 +133,6 @@ A empresa está projetando e desenvolvendo um novo aplicativo. Os desenvolvedore
     - Dê um **nome** ao escopo de criptografia. 
     - O **Tipo de criptografia** é **Chave gerenciada pela Microsoft**.
     - Defina a **criptografia de infraestrutura** como **Habilitar**.
-    - Observe o aviso de que a habilitação da criptografia de infraestrutura não pode ser alterada após a criação do escopo.
     - **Crie** o escopo de criptografia.
     - Retorne à conta de armazenamento e crie um novo contêiner.
     - Observe que na página **Novo contêiner** há o **Nome** e o **Nível de acesso público**.
