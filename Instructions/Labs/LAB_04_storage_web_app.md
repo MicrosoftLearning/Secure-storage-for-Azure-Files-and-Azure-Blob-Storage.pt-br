@@ -140,3 +140,28 @@ A empresa está projetando e desenvolvendo um novo aplicativo. Os desenvolvedore
 
 
 >**Observação**: para ter uma prática adicional, conclua o módulo [Proteger e isolar o acesso aos recursos do Azure usando grupos de segurança de rede e pontos de extremidade de serviço](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). O módulo tem uma área restrita na qual você pode obter mais prática na restrição do acesso ao armazenamento.
+
+## Limpar os recursos
+
+Se você estiver trabalhando com **sua própria assinatura** e tiver concluído esses laboratórios, reserve um minuto para excluir os recursos do laboratório. Isso garantirá que os recursos sejam liberados e que o custo seja minimizado. A maneira mais fácil de excluir os recursos do laboratório é excluir o grupo de recursos do laboratório. 
+
++ No portal do Azure, selecione o grupo de recursos, selecione **Excluir o grupo de recursos**, **Inserir o nome do grupo de recursos** e clique em **Excluir**.
++ Usar o Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
++ Usar a CLI, `az group delete --name resourceGroupName`.
+
+## Estender seu aprendizado com o Copilot
+
+O Copilot pode ajudar você em sua jornada de aprendizado. O Copilot pode oferecer informações técnicas básicas, etapas de alto nível, prós e contras, ajuda para solução de problemas, casos de uso, exemplos de codificação e muito mais. Para acessar o Copilot, abra um navegador Edge e escolha Copilot (canto superior direito). Reserve alguns minutos para experimentar essas solicitações.
++ O que é uma identidade gerenciada do Azure e como ela pode ser usada com o armazenamento do Azure?
++ Quais funções de RBAC (controle de acesso baseado em função) internas estão disponíveis para gerenciar o acesso ao Armazenamento do Azure. 
++ O que são chaves gerenciadas pelo cliente e como elas são usadas para o armazenamento do Azure?
+
+## Saiba mais com treinamento individual
+
++ [Proteger e isolar o acesso aos recursos do Azure usando grupos de segurança de rede e pontos de extremidade de serviço](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). Neste módulo, você verá como usar pontos de extremidade de serviço de rede virtual para controlar o tráfego de rede entre os serviços do Azure.
+
+## Principais aspectos a serem lembrados
++ O Azure tem funções de RBAC internas para o armazenamento do Azure. Essas funções incluem: Colaborador da Conta de Armazenamento, Proprietário dos Dados de Blob de Armazenamento e Colaborador de Compartilhamento com SMB de Dados de Arquivos.
++ Você pode usar a própria chave de criptografia para proteger os dados em sua conta de armazenamento. Quando você especifica uma chave gerenciada pelo cliente, essa chave é usada para proteger e controlar o acesso à chave que criptografa os dados. 
++ O armazenamento imutável garante que os dados não possam ser modificados ou excluídos por um intervalo especificado pelo usuário. Existem dois tipos de políticas imutáveis: baseadas em tempo e retenção legal.
++ A criptografia de infraestrutura pode ser habilitada para toda a conta de armazenamento ou para um escopo de criptografia dentro de uma conta. A criptografia de infraestrutura é recomendada para cenários em que a criptografia dupla de dados é necessária para requisitos de conformidade. 

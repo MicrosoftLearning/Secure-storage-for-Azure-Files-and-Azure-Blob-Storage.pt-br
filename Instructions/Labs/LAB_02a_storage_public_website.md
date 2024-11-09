@@ -3,8 +3,6 @@ lab:
   title: 'Exercício 02a: fornecer armazenamento para o site público'
   module: Guided Project - Azure Files and Azure Blobs
 ---
-
-
 O site da empresa fornece imagens de produtos, vídeos, literatura de marketing e histórias de sucesso do cliente. Os clientes estão localizados em todo o mundo, e a demanda está se expandindo rapidamente. O conteúdo é crítico e exige tempos de carga de baixa latência. Será importante acompanhar as versões do documento e restaurar rapidamente os documentos se eles forem excluídos.
 
 ## Diagrama de arquitetura
@@ -17,7 +15,6 @@ O site da empresa fornece imagens de produtos, vídeos, literatura de marketing 
 - Criar um contêiner de armazenamento de blobs para os documentos do site.
 - Habilitar a exclusão temporária para que os arquivos possam ser facilmente restaurados.
 - Habilitar o controle de versão de blob. 
-
 
 ## Instruções para o exercício
 
@@ -71,7 +68,7 @@ O site da empresa fornece imagens de produtos, vídeos, literatura de marketing 
 1. Determine a URL do arquivo carregado. Abra um navegador e teste a URL. 
     - Selecione o arquivo carregado.
     - Na guia **Visão geral**, copie a **URL**.
-    - Cole a URL em uma guia do navegador da Web.
+    - Cole a URL em uma nova guia do navegador.
     - Se você carregou um arquivo de imagem, ele será exibido no navegador. Outros tipos de arquivo serão baixados. 
 
 ## Configurar exclusão temporária
@@ -106,4 +103,21 @@ O site da empresa fornece imagens de produtos, vídeos, literatura de marketing 
    - **Carregue** outra versão do arquivo de contêiner. Isso substituirá o arquivo existente. 
    - Sua versão anterior do arquivo está listada na página **Mostrar blobs excluídos**. 
     
+## Estender seu aprendizado com o Copilot
 
+O Copilot pode ajudar você em sua jornada de aprendizado. O Copilot pode oferecer informações técnicas básicas, etapas de alto nível, prós e contras, ajuda para solução de problemas, casos de uso, exemplos de codificação e muito mais. Para acessar o Copilot, abra um navegador Edge e escolha Copilot (canto superior direito). Reserve alguns minutos para experimentar essas solicitações.
++ O que é o Armazenamento de Blobs do Azure e quando ele deve ser usado?
++ Compare os diferentes modelos de redundância de armazenamento do Azure, destacando seus principais recursos e casos de uso.
++ O que são as camadas de armazenamento do Azure e como essas camadas podem economizar dinheiro?
+
+## Saiba mais com treinamento individual
+
++ [Explore o Armazenamento de Blobs do Azure](https://learn.microsoft.com/training/modules/explore-azure-blob-storage/). Neste módulo, você conhecerá os principais recursos e funcionalidades do Armazenamento de Blobs do Azure.
+
+## Principais aspectos a serem lembrados
+
+Parabéns por concluir o laboratório. Aqui estão as principais lições desse laboratório. 
++ O Armazenamento de Blobs do Azure é otimizado para armazenar grandes quantidades de dados não estruturados. Dados não estruturados são dados que não estão de acordo com uma definição ou um modelo de dados específico, como texto ou dados binários.
++ A exclusão reversível para blobs protege um blob individual, instantâneo ou versão de exclusões ou substituições acidentais, mantendo os dados excluídos no sistema por um período de tempo especificado. 
++ Controle de versão de blobs, versões anteriores de um blob. Quando o controle de versão de blobs estiver habilitado, você poderá restaurar uma versão anterior de um blob para recuperar os dados, caso eles tenham sido modificados ou excluídos por engano.
++ Quando um contêiner é configurado para acesso anônimo, todos os clientes podem ler dados nesse contêiner.

@@ -38,7 +38,7 @@ A empresa precisa de armazenamento para os escritórios e os departamentos. Esse
     - Verifique se a opção **GRS (armazenamento com redundância geográfica)** está selecionada.
     - **Atualize** a página. 
     - Revise as informações de localização primária e secundária. 
-    - **Salve** as alterações.
+    - **Salve** suas alterações.
 
 ## Criar um contêiner de armazemaneto, carregar um arquivo e restringir o acesso ao arquivo. 
 
@@ -101,3 +101,21 @@ A empresa precisa de armazenamento para os escritórios e os departamentos. Esse
 
 >**Observação**: para ter uma prática adicional, conclua o módulo [Configurar o armazenamento de blobs do Azure](https://learn.microsoft.com/training/modules/configure-blob-storage/). O módulo tem uma simulação de laboratório interativa na qual você pode obter mais prática na criação de um armazenamento de blobs. 
 
+## Estender seu aprendizado com o Copilot
+
+O Copilot pode ajudar você em sua jornada de aprendizado. O Copilot pode oferecer informações técnicas básicas, etapas de alto nível, prós e contras, ajuda para solução de problemas, casos de uso, exemplos de codificação e muito mais. Para acessar o Copilot, abra um navegador Edge e escolha Copilot (canto superior direito). Reserve alguns minutos para experimentar essas solicitações.
++ Quais recursos de segurança estão disponíveis para proteger o armazenamento do Azure?
++ O que é uma SAS do Azure e como ela é usada?
+
+## Saiba mais com treinamento individual
+
++ [Configure a segurança do Armazenamento do Azure](https://learn.microsoft.com/training/modules/configure-storage-security/). Neste módulo, você verá como configurar recursos comuns de segurança do Armazenamento do Azure, como assinaturas de acesso de armazenamento.
++ [Gerencie o ciclo de vida do Armazenamento de Blobs do Azure](https://learn.microsoft.com/training/modules/configure-storage-security/). Neste módulo, você verá como gerenciar a disponibilidade de dados em todo o ciclo de vida do Armazenamento de Blobs do Azure.
+
+## Principais aspectos a serem lembrados
+
+Parabéns por concluir o laboratório. Aqui estão as principais lições desse laboratório. 
++ O armazenamento do Azure tem muitos recursos de proteção de dados, incluindo: criptografia, controle de acesso, segurança de rede, monitoramento e alertas. 
++ Uma assinatura de acesso compartilhado (SAS) fornece acesso delegado protegido aos recursos da sua conta de armazenamento. Com uma SAS, você tem controle granular sobre como um cliente pode acessar seus dados.
++ O gerenciamento do ciclo de vida do Armazenamento de Blobs do Azure oferece uma política baseada em regras que é possível usar para fazer a transição dos seus dados de blob para as camadas de acesso apropriadas e para expirar os dados no final do seu ciclo de vida.
++ A replicação de objeto copia de maneira assíncrona os blob de blocos entre uma conta de armazenamento de origem e uma conta de destino.
