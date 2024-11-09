@@ -100,3 +100,21 @@ A empresa está geograficamente dispersa, com escritórios em diferentes localid
 
 
 >**Observação**: para ter uma prática adicional, conclua o módulo [Configurar a segurança do armazenamento do Azure](https://learn.microsoft.com/training/modules/configure-storage-security/). O módulo tem uma simulação de laboratório interativa na qual você pode obter mais prática na criação de um armazenamento seguro. 
+
+## Estender seu aprendizado com o Copilot
+
+O Copilot pode ajudar você em sua jornada de aprendizado. O Copilot pode oferecer informações técnicas básicas, etapas de alto nível, prós e contras, ajuda para solução de problemas, casos de uso, exemplos de codificação e muito mais. Para acessar o Copilot, abra um navegador Edge e escolha Copilot (canto superior direito). Reserve alguns minutos para experimentar essas solicitações.
++ O que é o armazenamento de arquivos do Azure e como ele é diferente do armazenamento de Blobs do Azure? Como decidir qual deles usar?
++ Quais são as diferentes maneiras de proteger o conteúdo do arquivo do Azure?
+
+## Saiba mais com treinamento individual
+
++ [Configure os Arquivos do Azure e a Sincronização de Arquivos do Azure](https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/). Neste módulo, você verá como configurar compartilhamentos de arquivos do Azure e instantâneos de compartilhamento de arquivos.
+
+## Principais aspectos a serem lembrados
+
+Parabéns por concluir o laboratório. Aqui estão as principais lições desse laboratório. 
++ Os Arquivos do Azure oferecem compartilhamentos de arquivos totalmente gerenciados na nuvem que são acessíveis por meio do protocolo SMB, do protocolo NFS (Network File System) e da API REST dos Arquivos do Azure padrão do setor.
++ Os Arquivos do Azure fornecem a funcionalidade de realizar instantâneos de compartilhamentos de arquivos SMB e NFS. Os instantâneos de compartilhamento capturam o estado de compartilhamento naquele ponto no tempo. Compartilhamentos de instantâneos fornecem apenas a proteção no nível de arquivo.
++ Você pode configurar um ponto de extremidade da conta de armazenamento para acessar o compartilhamento de arquivos do Azure diretamente. Os pontos de extremidade restringem o acesso à rede para sua conta de armazenamento.
+

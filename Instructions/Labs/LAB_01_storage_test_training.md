@@ -62,3 +62,23 @@ O departamento de TI precisa criar protótipos de diferentes cenários de armaze
     - Não se esqueça de **Salvar** suas alterações. 
 
 >**Observação**: para ter uma prática adicional, conclua o módulo [Criar uma conta do Armazenamento do Azure](https://learn.microsoft.com/training/modules/create-azure-storage-account/). O módulo tem uma área restrita na qual você pode praticar a criação de uma conta de armazenamento.
+
+## Estender seu aprendizado com o Copilot
+
+O Copilot pode ajudar você em sua jornada de aprendizado. O Copilot pode oferecer informações técnicas básicas, etapas de alto nível, prós e contras, ajuda para solução de problemas, casos de uso, exemplos de codificação e muito mais. Para acessar o Copilot, abra um navegador Edge e escolha Copilot (canto superior direito). Reserve alguns minutos para experimentar essas solicitações.
++ O que é uma conta de Armazenamento do Microsoft Azure? Quais tipos de contas de armazenamento do Azure estão disponíveis?
++ Crie uma tabela comparando os níveis de desempenho do armazenamento do Azure. Destaque seus principais recursos e casos de uso. 
++ Quais opções de redundância de armazenamento estão disponíveis? Quando devo usar cada opção?
+
+## Saiba mais com treinamento individual
+
++ [Descreva os serviços de armazenamento do Azure](https://learn.microsoft.com/training/modules/describe-azure-storage-services/). Neste módulo, você irá comparar os serviços de armazenamento do Azure, descrever as camadas de armazenamento e descrever as opções de redundância.
++ [Criar uma conta de Armazenamento do Microsoft Azure](https://learn.microsoft.com/training/modules/create-azure-storage-account/). Neste módulo, você criará e configurará uma conta de armazenamento. 
+
+## Principais aspectos a serem lembrados
+
+Parabéns por concluir o laboratório. Aqui estão as principais lições desse laboratório. 
++ Uma conta de armazenamento do Azure é um contêiner com todos os seus objetos de dados do Armazenamento do Azure, incluindo blobs, arquivos, filas e tabelas.
++ O Armazenamento do Azure oferece diversos tipos de contas de armazenamento, Standard e Premium. Cada tipo é compatível com recursos diferentes e tem um modelo de preços próprio.
++ O Armazenamento do Azure sempre armazena várias cópias dos seus dados para protegê-los contra eventos planejados e não planejados.
++ Os modelos de redundância podem replicar dados nas regiões primária e secundária. 
